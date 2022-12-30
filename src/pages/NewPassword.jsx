@@ -1,13 +1,15 @@
 import React from 'react'
-import '../styles/Login.scss';
+import '../styles/NewPassword.scss'
 
-const Login = () => {
+import logoNewPassword from '@logos/logo_yard_sale.svg'
+
+const NewPassword = () => {
   return (
-    <div className="login">
-			<div className="form-container">
-				<img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
+    <div className="NewPassword">
+			<div className="NewPassword-container">
+				<img src={logoNewPassword} alt="logo" className="logo" />
 				<h1 className="title">Create a new password</h1>
-				<p className="subtitle">Enter a new password for yue account</p>
+				<p className="subtitle">Enter a new passwrd for yue account</p>
 				<form action="/" className="form">
 					<label for="password" className="label">Password</label>
 					<input type="password" id="password" placeholder="*********" className="input input-password" />
@@ -20,4 +22,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default NewPassword
