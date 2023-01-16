@@ -1,7 +1,6 @@
 import React from 'react'
 import OrderItem from '../components/OrderItem'
 import '../styles/MyOrder.scss'
-
 import littleArrow from '@icons/flechita.svg'
 
 const MyOrder = () => {
